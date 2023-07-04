@@ -2,18 +2,9 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    'Roboto',
-    'Oxygen',
-    'Ubuntu',
-    'Cantarell',
-    'Fira Sans',
-    'Droid Sans',
-    'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+    'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -35,9 +26,11 @@ body {
 }
 
 .keys .key {
-  padding: 15px 35px;
+  padding: 20px 40px;
   text-align: center;
   background-color: #e0e0e0;
+  border: none;
+  outline: none;
 }
 
 .keys .key:hover {
@@ -59,18 +52,9 @@ body {
 }
 
 .screen {
-  width: 100%;
   background-color: #858694;
-}
-
-.screen input {
+  padding: 15px 6px;
   font-size: 20px;
-  padding: 10px 0;
-  padding-left: 6px;
-  width: 95%;
   text-align: right;
   color: #fff;
-  background-color: #858694;
-  border: none;
-  outline: none;
 }

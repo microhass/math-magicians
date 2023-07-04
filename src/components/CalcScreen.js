@@ -2,24 +2,24 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const CalcScreen = ({ value }) => (
-  <form className="screen">
-    <input
-      type="text"
-      name="expr"
-      id="expr"
-      placeholder="0"
-      value={value}
-    />
-  </form>
-);
+const CalcScreen = ({ calcObj }) => {
+  const { total, next, operation } = calcObj;
+
+  const totalString = total || '';
+  const nextString = next || '';
+  const operationString = operation || '';
+
+  const screenValue = `${totalString}${operationString}${nextString}`;
+
+  return <div className="screen">{screenValue || 0}</div>;
+};
 
 CalcScreen.propTypes = {
-  value: PropTypes.string,
+  calcObj: PropTypes.objectOf(PropTypes.string),
 };
 
 CalcScreen.defaultProps = {
-  value: '',
+  calcObj: {},
 };
 
 export default CalcScreen;
