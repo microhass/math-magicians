@@ -1,5 +1,7 @@
 body {
+  padding: 0;
   margin: 0;
+  box-sizing: border-box;
   font-family:
     -apple-system,
     BlinkMacSystemFont,
@@ -16,12 +18,59 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family:
-    source-code-pro,
-    Menlo,
-    Monaco,
-    Consolas,
-    'Courier New',
-    monospace;
+.calculator {
+  background-color: #c6c6c6;
+  display: grid;
+  width: fit-content;
+  margin: 3rem auto;
+  max-width: 600px;
+}
+
+.keys {
+  background-color: transparent;
+  display: grid;
+  gap: 2px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+}
+
+.keys .key {
+  padding: 15px 35px;
+  text-align: center;
+  background-color: #e0e0e0;
+}
+
+.keys .key:hover {
+  background-color: #eee;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.key.right-key {
+  background-color: #f5913e;
+}
+
+.key.right-key:hover {
+  background-color: #f67f1e;
+}
+
+.key.double-width {
+  grid-column: 1 / 3;
+}
+
+.screen {
+  width: 100%;
+  background-color: #858694;
+}
+
+.screen input {
+  font-size: 20px;
+  padding: 10px 0;
+  padding-left: 6px;
+  width: 95%;
+  text-align: right;
+  color: #fff;
+  background-color: #858694;
+  border: none;
+  outline: none;
 }
