@@ -1,32 +1,33 @@
-import React from 'react';
+import React, { useState } from 'react';
 import CalcScreen from './CalcScreen';
 import CalcKey from './CalcKey';
+import calculate from '../logic/calculate';
+import allKeys from '../data/allKeys';
 
-const Calculator = () => (
-  <div className="calculator">
-    <CalcScreen />
-    <div className="keys">
-      <CalcKey value="AC" />
-      <CalcKey value="+/-" />
-      <CalcKey value="%" />
-      <CalcKey value="÷" rightKey />
-      <CalcKey value="7" />
-      <CalcKey value="8" />
-      <CalcKey value="9" />
-      <CalcKey value="×" rightKey />
-      <CalcKey value="4" />
-      <CalcKey value="5" />
-      <CalcKey value="6" />
-      <CalcKey value="-" rightKey />
-      <CalcKey value="1" />
-      <CalcKey value="2" />
-      <CalcKey value="3" />
-      <CalcKey value="+" rightKey />
-      <CalcKey value="0" doubleWidth />
-      <CalcKey value="." />
-      <CalcKey value="=" rightKey />
+const Calculator = () => {
+  const [calcObj, setCalcObj] = useState({});
+
+  const keyClickHandler = (value) => {
+    const newCalcObj = calculate(calcObj, value);
+    setCalcObj(newCalcObj);
+  };
+
+  return (
+    <div className="calculator">
+      <CalcScreen calcObj={calcObj} />
+      <div className="keys">
+        {allKeys.map((key) => (
+          <CalcKey
+            key={key.value}
+            value={key.value}
+            rightKey={key.rightKey}
+            doubleWidth={key.doubleWidth}
+            clickHandler={keyClickHandler}
+          />
+        ))}
+      </div>
     </div>
-  </div>
-);
+  );
+};
 
 export default Calculator;
