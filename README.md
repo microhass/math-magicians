@@ -3,7 +3,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 Todo List Project](#-todo-list-project)
+- [📖 Math Magicians Project](#-math-magicians-project)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -19,9 +19,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Todo List Project<a name="about-project"></a>
+# 📖 Math Magicians Project<a name="about-project"></a>
 
-**A simple JavaScript application to create, manage & organize tasks as a todo list. It is implemented with the help of `webpack` and other libraries.**
+**A simple React application using SPA tools to render different pages. Also includes a functioning calculator.**
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -30,9 +30,9 @@
 > This project was built using the following technologies:
 
 <details>
-  <summary>HTML</summary>
+  <summary>React</summary>
   <ul>
-    <li><a href="https://www.w3schools.com/html/" target="_blank">HTML</a></li>
+    <li><a href="https://www.w3schools.com/react/" target="_blank">React</a></li>
   </ul>
 </details>
 
@@ -54,9 +54,8 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Add new tasks: Enter the new task to be added to the list.**
-- **Mark tasks completed: Mark a task as completed when done.**
-- **Drag & drop functionality to organize tasks.**
+- **Functioning calculator**
+- **SPA application rendering multiplr pages**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -64,7 +63,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-<a href=""> See Project 🚀 Live link not ready yet ❌</a>
+<a href="https://micro-math-magicians.netlify.app/"> See Project 🚀</a>
 
 <!-- GETTING STARTED -->
 
