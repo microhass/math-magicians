@@ -13,20 +13,23 @@ const Calculator = () => {
   };
 
   return (
-    <div className="calculator">
-      <CalcScreen calcObj={calcObj} />
-      <div className="keys">
-        {allKeys.map((key) => (
-          <CalcKey
-            key={key.value}
-            value={key.value}
-            rightKey={key.rightKey}
-            doubleWidth={key.doubleWidth}
-            clickHandler={keyClickHandler}
-          />
-        ))}
+    <section className="calc-page">
+      <div className="calc-text">Lets do some math</div>
+      <div className="calculator">
+        <CalcScreen calcObj={calcObj} />
+        <div className="keys">
+          {allKeys.map((key) => (
+            <CalcKey
+              key={key.value}
+              value={key.value}
+              rightKey={key.rightKey}
+              doubleWidth={key.doubleWidth}
+              clickHandler={keyClickHandler}
+            />
+          ))}
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
 
