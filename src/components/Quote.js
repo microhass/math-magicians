@@ -29,18 +29,18 @@ const Quote = () => {
     fetchQuote();
   }, []);
 
-  if (isError) return <div>An error occured</div>;
+  if (isError) return <section>An error occured</section>;
 
-  if (isLoading) return <div>Loading...</div>;
+  if (isLoading) return <section>Loading...</section>;
 
   return (
-    <div>
+    <section>
       <span className="quote">{quote.quote}</span>
       <span className="author">
         {' '}
         {` - ${quote.author}`}
       </span>
-    </div>
+    </section>
   );
 };
 
