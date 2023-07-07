@@ -15,7 +15,7 @@ const Layout = () => (
                 to={link}
                 className={({ isActive }) => (isActive ? 'active' : '')}
               >
-                {link.toUpperCase()}
+                {link}
               </Link>
             </li>
           ))}
