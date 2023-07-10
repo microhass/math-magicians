@@ -1,5 +1,4 @@
 import React from 'react';
-// eslint-disable-next-line import/no-extraneous-dependencies
 import { Link, Outlet } from 'react-router-dom';
 import navLinks from '../data/links';
 

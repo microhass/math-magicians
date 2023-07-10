@@ -8,27 +8,33 @@ ul li {
   list-style-type: none;
 }
 
-a, a:active, a:link, a:visited {
-  color: inherit;
-  text-decoration: none;
-}
-
 header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 2rem;
+  padding: 1rem;
+  background-color: #00f;
+  color: #fff;
+}
+
+header h1 {
+  font-size: 1.6rem;
 }
 
 nav ul {
   display: flex;
-  gap: 15px;
+  gap: 35px;
 }
 
 ul li a {
   text-transform: capitalize;
+}
+
+a:active,
+a:link,
+a:visited {
+  color: inherit;
+  text-decoration: none;
 }
 
 section {
@@ -48,7 +54,8 @@ section {
 }
 
 .home p {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
+  line-height: 1.5;
 }
 
 .calc-page {
@@ -57,7 +64,7 @@ section {
 }
 
 .calc-text {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .calculator {
@@ -109,8 +116,17 @@ section {
   color: #fff;
 }
 
+.quote,
+.author {
+  font-style: italic;
+}
+
 @media screen and (min-width: 768px) {
   .calc-page {
     flex-direction: row;
+  }
+
+  header {
+    padding: 1.5rem 20%;
   }
 }
