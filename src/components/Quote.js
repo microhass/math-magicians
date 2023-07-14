@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import axios from 'axios';
 import quoteURL from '../data/urls';
 
 const Quote = () => {
@@ -14,10 +13,11 @@ const Quote = () => {
 
     try {
       setIsLoading(() => true);
-      const res = await axios.get(quoteURL, {
+      const res = await fetch(quoteURL, {
         headers,
       });
-      setQuote(res.data[0]);
+      const quote = await res.json();
+      setQuote(quote[0]);
     } catch (err) {
       setIsError(() => true);
     }

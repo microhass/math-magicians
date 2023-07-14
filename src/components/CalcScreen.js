@@ -10,7 +10,7 @@ const CalcScreen = ({ calcObj }) => {
 
   const screenValue = `${totalString}${operationString}${nextString}`;
 
-  return <div className="screen">{screenValue || 0}</div>;
+  return <div className="screen" data-testid="screen">{screenValue || 0}</div>;
 };
 
 CalcScreen.propTypes = {
