@@ -1,0 +1,250 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home should render correctly 1`] = `
+<DocumentFragment>
+  <section
+    class="home"
+  >
+    <h2>
+      Welcome to our page!
+    </h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti enim laborum labore inventore magnam recusandae debitis blanditiis dicta! Voluptatum mollitia amet in ullam maxime obcaecati magnam esse facilis blanditiis ducimus illum, natus ab cupiditate sed recusandae doloremque aperiam vitae impedit dicta consectetur. Nemo, exercitationem rem.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est neque repellat ex quis unde debitis alias exercitationem ipsum vitae dolorum. Placeat dolores neque repellat temporibus totam, dolorem praesentium quas similique autem distinctio et quae eum quo mollitia corporis repellendus laudantium minus earum accusantium maxime provident delectus ullam nostrum! Est, praesentium?
+    </p>
+  </section>
+</DocumentFragment>
+`;
+
+exports[`Homepage  should render correctly 1`] = `
+<DocumentFragment>
+  <section
+    class="home"
+  >
+    <h2>
+      Welcome to our page!
+    </h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti enim laborum labore inventore magnam recusandae debitis blanditiis dicta! Voluptatum mollitia amet in ullam maxime obcaecati magnam esse facilis blanditiis ducimus illum, natus ab cupiditate sed recusandae doloremque aperiam vitae impedit dicta consectetur. Nemo, exercitationem rem.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est neque repellat ex quis unde debitis alias exercitationem ipsum vitae dolorum. Placeat dolores neque repellat temporibus totam, dolorem praesentium quas similique autem distinctio et quae eum quo mollitia corporis repellendus laudantium minus earum accusantium maxime provident delectus ullam nostrum! Est, praesentium?
+    </p>
+  </section>
+</DocumentFragment>
+`;
+
+exports[`Homepage rendering should correctly 1`] = `
+<DocumentFragment>
+  <section
+    class="home"
+  >
+    <h2>
+      Welcome to our page!
+    </h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti enim laborum labore inventore magnam recusandae debitis blanditiis dicta! Voluptatum mollitia amet in ullam maxime obcaecati magnam esse facilis blanditiis ducimus illum, natus ab cupiditate sed recusandae doloremque aperiam vitae impedit dicta consectetur. Nemo, exercitationem rem.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est neque repellat ex quis unde debitis alias exercitationem ipsum vitae dolorum. Placeat dolores neque repellat temporibus totam, dolorem praesentium quas similique autem distinctio et quae eum quo mollitia corporis repellendus laudantium minus earum accusantium maxime provident delectus ullam nostrum! Est, praesentium?
+    </p>
+  </section>
+</DocumentFragment>
+`;
+
+exports[`Homepage rendering should correctly render the cal 1`] = `
+<DocumentFragment>
+  <section
+    class="home"
+  >
+    <h2>
+      Welcome to our page!
+    </h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti enim laborum labore inventore magnam recusandae debitis blanditiis dicta! Voluptatum mollitia amet in ullam maxime obcaecati magnam esse facilis blanditiis ducimus illum, natus ab cupiditate sed recusandae doloremque aperiam vitae impedit dicta consectetur. Nemo, exercitationem rem.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est neque repellat ex quis unde debitis alias exercitationem ipsum vitae dolorum. Placeat dolores neque repellat temporibus totam, dolorem praesentium quas similique autem distinctio et quae eum quo mollitia corporis repellendus laudantium minus earum accusantium maxime provident delectus ullam nostrum! Est, praesentium?
+    </p>
+  </section>
+</DocumentFragment>
+`;
+
+exports[`Homepage rendering should correctly render the calculator 1`] = `
+<DocumentFragment>
+  <section
+    class="calc-page"
+  >
+    <div
+      class="calc-text"
+    >
+      Lets do some math
+    </div>
+    <div
+      class="calculator"
+    >
+      <div
+        class="screen"
+      >
+        0
+      </div>
+      <div
+        class="keys"
+      >
+        <button
+          class="  key"
+          type="button"
+        >
+          AC
+        </button>
+        <button
+          class="  key"
+          type="button"
+        >
+          +/-
+        </button>
+        <button
+          class="  key"
+          type="button"
+        >
+          %
+        </button>
+        <button
+          class="right-key  key"
+          type="button"
+        >
+          ÷
+        </button>
+        <button
+          class="  key"
+          type="button"
+        >
+          7
+        </button>
+        <button
+          class="  key"
+          type="button"
+        >
+          8
+        </button>
+        <button
+          class="  key"
+          type="button"
+        >
+          9
+        </button>
+        <button
+          class="right-key  key"
+          type="button"
+        >
+          x
+        </button>
+        <button
+          class="  key"
+          type="button"
+        >
+          4
+        </button>
+        <button
+          class="  key"
+          type="button"
+        >
+          5
+        </button>
+        <button
+          class="  key"
+          type="button"
+        >
+          6
+        </button>
+        <button
+          class="right-key  key"
+          type="button"
+        >
+          -
+        </button>
+        <button
+          class="  key"
+          type="button"
+        >
+          1
+        </button>
+        <button
+          class="  key"
+          type="button"
+        >
+          2
+        </button>
+        <button
+          class="  key"
+          type="button"
+        >
+          3
+        </button>
+        <button
+          class="right-key  key"
+          type="button"
+        >
+          +
+        </button>
+        <button
+          class=" double-width key"
+          type="button"
+        >
+          0
+        </button>
+        <button
+          class="  key"
+          type="button"
+        >
+          .
+        </button>
+        <button
+          class="right-key  key"
+          type="button"
+        >
+          =
+        </button>
+      </div>
+    </div>
+  </section>
+</DocumentFragment>
+`;
+
+exports[`Homepage rendering should correctly render the homepage 1`] = `
+<DocumentFragment>
+  <section
+    class="home"
+  >
+    <h2>
+      Welcome to our page!
+    </h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti enim laborum labore inventore magnam recusandae debitis blanditiis dicta! Voluptatum mollitia amet in ullam maxime obcaecati magnam esse facilis blanditiis ducimus illum, natus ab cupiditate sed recusandae doloremque aperiam vitae impedit dicta consectetur. Nemo, exercitationem rem.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est neque repellat ex quis unde debitis alias exercitationem ipsum vitae dolorum. Placeat dolores neque repellat temporibus totam, dolorem praesentium quas similique autem distinctio et quae eum quo mollitia corporis repellendus laudantium minus earum accusantium maxime provident delectus ullam nostrum! Est, praesentium?
+    </p>
+  </section>
+</DocumentFragment>
+`;
+
+exports[`Homepage rendering should correctly render the homepage 2`] = `
+<DocumentFragment>
+  <section
+    class="home"
+  >
+    <h2>
+      Welcome to our page!
+    </h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti enim laborum labore inventore magnam recusandae debitis blanditiis dicta! Voluptatum mollitia amet in ullam maxime obcaecati magnam esse facilis blanditiis ducimus illum, natus ab cupiditate sed recusandae doloremque aperiam vitae impedit dicta consectetur. Nemo, exercitationem rem.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est neque repellat ex quis unde debitis alias exercitationem ipsum vitae dolorum. Placeat dolores neque repellat temporibus totam, dolorem praesentium quas similique autem distinctio et quae eum quo mollitia corporis repellendus laudantium minus earum accusantium maxime provident delectus ullam nostrum! Est, praesentium?
+    </p>
+  </section>
+</DocumentFragment>
+`;

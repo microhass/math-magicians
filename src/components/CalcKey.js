@@ -4,9 +4,9 @@ import PropTypes from 'prop-types';
 const CalcKey = ({
   value, rightKey, doubleWidth, clickHandler,
 }) => {
-  const classes = `${rightKey ? 'right-key' : ''} ${
+  const classes = `key ${rightKey ? 'right-key' : ''} ${
     doubleWidth ? 'double-width' : ''
-  } key`;
+  }`;
 
   return (
     <button

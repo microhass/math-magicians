@@ -64,6 +64,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 <a href="https://micro-math-magicians.netlify.app/"> See Project 🚀</a>
+<a href="https://micro-math-magicians.onrender.com/"> Render Link 🚀</a>
 
 <!-- GETTING STARTED -->
 
